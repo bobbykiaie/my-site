@@ -7,6 +7,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -46,10 +48,12 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
+    "gh-pages": "^3.1.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   },
+  "homepage": "http://bobbykiaie.github.io/my-site",
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"

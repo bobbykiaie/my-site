@@ -1,17 +1,20 @@
 import { nanoid } from 'nanoid';
 
+const desc =
+  'Tool life tracking web app that allows engineers to track and compare the capability of machining end mills on on each component within each medical device product line in order to reduce net machining costs. Developed frontend using React JS hooks, state management, and react routes to immediately update components and display tooling data as it is logged. Structured backend server in Node JS to interface with MongoDB product database to store/retrieve user logged data from the front-end post/get requests.Designed MongoDB document schema with multi-nested subdocuments to allow for the storage and retrieval of tool life data for each product line and its respective subcomponents.';
+
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Bobby Kiaie', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Software/Manufacturing Engineer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello there! My name is',
+  name: 'Bobby Kiaie',
+  subtitle: 'I am a Software/Manufacturing Engineer',
   cta: '',
 };
 
@@ -28,12 +31,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'tool.jpg',
+    title: 'Tool Life Tracker',
+    info: desc,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://bobbykiaie.github.io/tool-life',
+    repo: 'https://github.com/bobbykiaie/tool-life', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
